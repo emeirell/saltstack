@@ -8,4 +8,4 @@ modified_banner:
         /etc/motd:
           mask:
             - modify
-          disable_during_state_run: false
+    - disable_during_state_run: True

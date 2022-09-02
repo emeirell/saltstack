@@ -7,3 +7,4 @@ not_running_sshd:
     - services:
         sshd:
           onchangeonly: true
+          delay: 1
