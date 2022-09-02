@@ -4,7 +4,8 @@ support_user:
     - fullname: Support User
     - name: support
     - usergroup: False
-    - password: '10f20f1d6feffe45327bd86444a5025a18706de8'
+    - password: VMware1!
+    - hash_password: True
     - groups:
       - wheel
       - users
